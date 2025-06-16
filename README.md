@@ -28,7 +28,7 @@
 | Frontend   | React.js, Bootstrap, HTML5, CSS3 |
 | Backend    | Node.js, Express.js        |
 | Database   | MySQL                      |
-| Tools      | Postman, VS Code, Git      |
+| Tools      | Postman, Webstorm , Git      |
 
 ---
 
@@ -38,5 +38,4 @@
 
 ```bash
 cd api
-npm install
-node app.js
+npm run dev 
