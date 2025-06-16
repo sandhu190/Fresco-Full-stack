@@ -1,0 +1,123 @@
+.error-msg{
+  color: #bd1515;
+  font-weight: bold;
+}
+.form-1 {
+  /* Add some basic styling to match the form */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  font-family: inherit;
+  height: 65px;
+  background: white;
+}
+
+.form-1:focus {
+  /* Add some focus styles */
+  border-color: #aaa;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dark1{
+  border: solid #44b40b;
+}
+
+/*Carousel Style*/
+.prev-arrow, .next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev-arrow {
+  left: 10px;
+}
+
+.next-arrow {
+  right: 10px;
+}
+/*end*/
+
+.button{
+  background: darkred;
+}
+.button2{
+  background: steelblue;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.h1-wrap {
+  position: relative;
+  transition: top 0.3s ease-in-out;
+}
+
+.h1-wrap.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.dropdown-item-custom {
+  background-color: #ffffff; /* Change this to the desired background color */
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item-custom:hover {
+  background-color: #f6f1f1; /* Change this to the desired hover background color */
+}
+
+@media (min-width: 992px) {
+  .checkout {
+    margin-left: 100px;
+  }
+}
+.form22{
+  background: #721717;
+}
+.my-modal .modal-content {
+  background-color: #202A44;
+  color: white;
+}
+.glow-link {
+  text-decoration: none;
+  color: #080815; /* initial color */
+  transition: 500ms linear 0s; /* add transition effect */
+}
+
+.glow-link:hover {
+  color: #3279ce !important; /* change color on hover */
+}
+.bg-16{
+  background: #ececec;
+}
+.hover-red {
+  /* Set the initial background color */
+  /* Change the background color on hover */
+  &:hover {
+    background-color: #f66969;
+    left: 5px;
+    transform: translateX(5px);
+  }
+}
+.modal-text {
+  text-align: center;
+  width: 100%; /* make sure the div takes up the full width */
+}
